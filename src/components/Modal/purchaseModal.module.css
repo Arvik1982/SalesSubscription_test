@@ -1,0 +1,38 @@
+.modal__container {
+  max-height: 600px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 5%;
+  gap: 25px;
+  border-radius: 8px;
+  min-width: 320px;
+  min-height: 400px;
+  background-color: #fff;
+  box-shadow: 0 7px 21px rgba(83, 92, 105, 0.12),
+    0 -1px 6px 0 rgba(83, 92, 105, 0.06);
+  background: linear-gradient(#7b68ee, pink);
+}
+.modal__container_content {
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: gainsboro;
+  display: flex;
+  gap: 10px;
+  height: 50px;
+  box-shadow: 0 7px 21px rgba(83, 92, 105, 0.12),
+    0 -1px 6px 0 rgba(83, 92, 105, 0.06);
+  align-items: center;
+  justify-content: space-between;
+}
+.container__content_description {
+  max-width: 300px;
+}
+.container__content_buttons {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,52 @@
+.item__input_box {
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 7px 21px rgba(83, 92, 105, 0.12),
+    0 -1px 6px 0 rgba(83, 92, 105, 0.06);
+  background-color: #f5e4e4;
+}
+.item__input_box:hover {
+  transition: 0.5s;
+  background-color: #f5c3c3;
+  box-shadow: 0 7px 1px rgba(11, 14, 19, 0.12),
+    0 -1px 6px 0 rgba(1, 8, 17, 0.06);
+}
+.input__box_checkbox {
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+  border-radius: 30px;
+  border: solid 2px rgba(84, 95, 113, 1);
+}
+
+.input__checkbox_selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+  border-radius: 30px;
+  background-color: rgba(84, 95, 113, 1);
+}
+
+.input__box_name {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}

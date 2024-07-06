@@ -1,0 +1,7 @@
+.container__button {
+  background: linear-gradient(#ee3131, #ed5276);
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 7px 21px rgba(83, 92, 105, 0.12),
+    0 -1px 6px 0 rgba(83, 92, 105, 0.06);
+}

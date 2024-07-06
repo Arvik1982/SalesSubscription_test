@@ -25,3 +25,4 @@ Redux/toolkit
 Установить заисимости: npm install; 
 Запуск: npm run dev; 
 Для работы с приложением перейдите: http://localhost:5173/
+deploy: https://flourishing-squirrel-8df520.netlify.app/
